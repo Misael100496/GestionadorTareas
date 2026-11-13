@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Tareas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+  <img src="accenture.png">
+  <h1>Gestor de Tareas</h1>
+
+  <div class="form-container">
+    <input type="text" id="tareaInput" placeholder="Escribe una tarea">
+    <button class="btn-agregar" onclick="agregarTarea()">Agregar</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Tarea</th>
+        <th>Estado</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="tablaTareas"></tbody>
+  </table>
+ <script src="function.js"></script>
+</body>
+</html>

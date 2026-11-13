@@ -1,0 +1,58 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #520085;
+      padding: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+   text-align: center;
+   color: white;
+}
+
+.form-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+input {
+      padding: 8px;
+      width: 200px;
+  }
+
+button {
+      padding: 8px 12px;
+      margin-left: 5px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+ }
+.btn-agregar { background: #28a745; color: white; }
+    .btn-editar { background: #ffc107; color: white;}
+    .btn-eliminar { background: #dc3545; color: white; }
+    .btn-hecho { background: #17a2b8; color: white; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background: #007bff;
+      color: white;
+    }
+
+    .hecho {
+      text-decoration: line-through;
+      color: gray;
+    }
